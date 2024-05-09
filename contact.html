@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    h1 {
+      color: hotpink;
+      font-family: "Lucida Console"
+      text-align: center;
+    }
+    </style>
+    <title>
+        <h1> CONTATTI E ISCRIZIONE</h1>
+    </title>
+<style>
+   h3 {
+font-size:30px;
+color:rgb(83, 71, 255);
+}
+</style>
+<body>
+    <h3>INFORMAZIONI</h3>
+    <P>TELEFONO: +39 351 297 2007</P>
+    <P>E-mail: fithapiness@gmail.it</P>
+    <p>INDIRIZZO: Via Daniele Manin, 7, Verona Centro</p>
 
+    <h3>MODULO ISCRIZIONE</h3>
+    <from action="*" method="POST"> 
+    <label for="name">NOME E COGNOME</label>
+    <br>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="number">NUMERO DI TELEFONO</label>
+    <br>
+    <input type="text" id="number" name="number" required>
+    <br>
+    <label for="email">E-mail</label>
+    <br>
+    <input type="text" id="email" name="email" required>
+    <br>
+    <textarea id="message" name="message" rows="4" required data-gramma="false" wt-ignore-input="true"></textarea>
+    <br>
+    <buuton type="submit">INVIA</buuton>
+    </from>
+</body>
+
+</head>
